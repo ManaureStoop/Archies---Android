@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView_menu_bck"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/subcatbg" />
+
+    <TextView
+        android:id="@+id/textView_plates_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/main_dummy_title"
+        android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView_plates_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_plates_title"
+            android:layout_below="@+id/textView_plates_title"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:singleLine="true"
+            android:text="@string/main_dummy_title"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView1_textView_plates_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textView_plates_title"
+            android:layout_marginRight="17dp"
+             />
+
+</RelativeLayout>

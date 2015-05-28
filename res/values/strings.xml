@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Archies</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_dummy_title">"Trattoria Pizza IN TOMATOE"</string>
+     <string name="main_dummy_description">"Champiñón, cebolla, pimentón, brócoli, alcachofas y aceituna negra."</string>
+    
+
+</resources>
